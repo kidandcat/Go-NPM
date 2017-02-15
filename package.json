@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Testing NPM with Go",
+  "main": "test.go",
+  "dependencies": {
+    "go-locate": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "go run test.go",
+    "build": "go build"
+  },
+  "author": "",
+  "license": "MIT"
+}
